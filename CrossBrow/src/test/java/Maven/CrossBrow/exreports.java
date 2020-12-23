@@ -27,17 +27,13 @@ public class exreports {
 	@BeforeClass
 	public void startTest()
 	{
-	System.setProperty("webdriver.chrome.driver", driver_path);
+	System.setProperty("webdriver.chrome.driver", "C:\\Users\\USER\\Desktop\\Browsers\\chrome\\chromedriver.exe");
 	d=new ChromeDriver();
 	
 	//htmlrep=new HTMLReporter("C:\\Users\\USER\\Desktop\\Testing\\ExtentReports\\ExtentReport.html");
 	htmlrep = new ExtentHtmlReporter(System.getProperty("user.dir") +"/test-output/testReport.html");
 	exerep=new ExtentReports();
 	exerep.attachReporter(htmlrep);
-	
-	
-	
-	
 	}
 	
 	

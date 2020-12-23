@@ -36,8 +36,8 @@ public class crossbrowsing {
 
 	  @AfterTest
 	  public void afterTest() {
-		  //d.quit();
-		  //f.quit();
+		  d.quit();
+		  f.quit();
 		  
 	  }
 
