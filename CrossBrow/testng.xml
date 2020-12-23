@@ -3,7 +3,8 @@
 <suite name="Suite" parallel="methods">
   <test thread-count="5" name="Test" parallel="tests">
     <classes>
-      <class name="Maven.CrossBrow.crossbrowsing"/>
+      
+      <class name="Maven.CrossBrow.DemoTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
