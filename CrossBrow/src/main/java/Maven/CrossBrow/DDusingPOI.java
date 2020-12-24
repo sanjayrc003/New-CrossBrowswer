@@ -19,10 +19,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class DDusingPOI {
 	
 	static List<String> usernamelist=new ArrayList<String>();
-	/*Initializing the Username datas in list which is in string format*/
+	
 	
 	static List<String> passwordlist=new ArrayList<String>();
-	/*Initializing the Password datas in list which is in string format*/
+	
 	
 	public void readExcel() throws IOException
 	/*Created a method readExcel for all the excel operation*/
